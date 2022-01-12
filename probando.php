@@ -4,6 +4,7 @@ function mainEquipoGobierno($Sevius,$conexion,$tipo)
     //print_r ($Sevius);
     
     echo $_REQUEST['accion'];    
+    echo 'probando cambio';
     switch(@$_REQUEST['accion'])
     {
         case 'detalles':
